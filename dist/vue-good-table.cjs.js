@@ -8895,6 +8895,8 @@ const _sfc_main = {
 				this.$emit("search", {
 					searchTerm: this.searchTerm,
 					rowCount: filteredRows.length,
+					sorts: this.sorts,
+				        rowsFiltered: filteredRows
 				});
 
 				// here we need to reconstruct the nested structure
