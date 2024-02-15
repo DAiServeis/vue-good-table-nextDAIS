@@ -8892,7 +8892,8 @@ const _sfc_main = {
 					searchTerm: this.searchTerm,
 					rowCount: filteredRows.length,
 					sorts: this.sorts,
-				        rowsFiltered: filteredRows
+				        rowsFiltered: filteredRows,
+          				perPageDropdown: this.customRowsPerPageDropdown
 				});
 
 				// here we need to reconstruct the nested structure
